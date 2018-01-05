@@ -42,7 +42,12 @@ EOF
 
 echo "127.0.0.1 $HOSTNAME" >> /etc/hosts
 # Configure Apache2
+#service apache2 stop
+apache2ctl stop
 echo "ServerName $HOSTNAME" >> /etc/apache2/apache2.conf
+sleep 5
+apache2ctl start
 apache2ctl -D FOREGROUND
 /bin/bash
+
 

@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+#FROM keystone:ocata
 MAINTAINER = Di Xu <stephenhsu90@gmail.com>
 
 EXPOSE 5000 35357
