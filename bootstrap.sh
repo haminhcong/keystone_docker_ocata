@@ -44,3 +44,5 @@ echo "127.0.0.1 $HOSTNAME" >> /etc/hosts
 # Configure Apache2
 echo "ServerName $HOSTNAME" >> /etc/apache2/apache2.conf
 apache2ctl -D FOREGROUND
+/bin/bash
+
