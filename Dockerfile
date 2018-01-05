@@ -31,4 +31,3 @@ COPY bootstrap.sh /bootstrap.sh
 
 WORKDIR /root
 CMD sh -x /bootstrap.sh
-/bin/bash
